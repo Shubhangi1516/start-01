@@ -3,6 +3,10 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int i=0,n;
+    cout<<"Enter a positive integer";
+    cin>>n;
+    for(i;i<n;i++)
+    {   cout<<"Hello\n"; }
     return 0;
 }
